@@ -5,28 +5,13 @@ package io.matthd.jslib.external.database;
  */
 public class MongoDatabase implements Database {
 
-    
-    public MongoDatabase() {
-
-    }
-
-    @Override
-    public String getHost() {
-        return null;
-    }
-
-    @Override
-    public int getPort() {
-        return 0;
-    }
-
-    @Override
-    public String getDB() {
-        return null;
-    }
-
     @Override
     public void connect() {
+
+    }
+
+    @Override
+    public void disconnect() {
 
     }
 }

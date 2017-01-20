@@ -5,9 +5,6 @@ package io.matthd.jslib.external.database;
  */
 public interface Database {
 
-    public String getHost();
-    public int getPort();
-    public String getDB();
-
-    public void connect();
+    void connect();
+    void disconnect();
 }

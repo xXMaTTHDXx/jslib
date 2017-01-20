@@ -1,19 +1,20 @@
 package io.matthd.jslib;
 
-import tech.rayline.core.plugin.RedemptivePlugin;
+
+import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * Created by Matt on 16/01/2017.
  */
-public class JsLib extends RedemptivePlugin {
+public class JsLib extends JavaPlugin {
+
 
     @Override
-    protected void onModuleEnable() throws Exception {
-
+    public void onEnable() {
     }
 
     @Override
-    protected void onModuleDisable() throws Exception {
+    public void onDisable() {
 
     }
 }

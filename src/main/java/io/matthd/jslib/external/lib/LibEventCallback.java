@@ -4,11 +4,11 @@
  * Could not load the following classes:
  *  org.bukkit.event.Event
  */
-package io.matthd.jslib.external.bukkit;
+package io.matthd.jslib.external.lib;
 
 import org.bukkit.event.Event;
 
-public interface BukkitEventHandler<T extends Event> {
-    public void handle(T var1);
+public interface LibEventCallback<T extends Event> {
+    public void callback(T var1);
 }
 
